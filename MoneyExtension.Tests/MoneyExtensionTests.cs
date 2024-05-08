@@ -6,8 +6,8 @@ public class MoneyExtensionTests
     [TestMethod]
     public void ShouldConvertDecimalToInt()
     {
-        decimal valor = 279.98M;
-        var cents = valor.ToCents();
+        decimal money = 279.98M;
+        var cents = money.ToCents();
 
         Assert.AreEqual(27998, cents);
     }
