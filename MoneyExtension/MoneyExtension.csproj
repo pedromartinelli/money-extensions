@@ -14,14 +14,14 @@
 		<RepositoryUrl>https://github.com/pedromartinelli/money-extensions</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/pedromartinelli/money-extensions</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageIcon>icon</PackageIcon>
+		<PackageIcon>images\icon.png</PackageIcon>
 		<PackageTags>money;tools;converter</PackageTags>
 		<Title>MoneyExtensions</Title>
 		<Summary>Extensions to handle money</Summary>
 	</PropertyGroup>
 	
 	<ItemGroup>
-		<None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+		<None Include="..\Media\icon.png" Pack="true" PackagePath="images\icon.png"/>
 	</ItemGroup>
 
 </Project>
